@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace ticTacToe
 {
-    internal class coinFlip
+    internal class randomize
     {
+        internal static bool coinFlip(bool invert)
+        {
+            Random rnd = new Random();
+            rnd.Next();
+        }
     }
 }
