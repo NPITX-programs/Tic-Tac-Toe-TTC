@@ -8,10 +8,11 @@ namespace ticTacToe
 {
     internal class randomize
     {
-        internal static bool coinFlip(bool invert)
+        internal static int coinFlip(bool invert)
         {
-            Random rnd = new Random();
-            rnd.Next();
+           Random random = new Random();
+            int out = random.Next(-1, 1);
+            return out;
         }
     }
 }
