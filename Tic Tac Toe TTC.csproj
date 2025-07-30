@@ -56,17 +56,10 @@
     <Compile Include="frm_TicTacToe.Designer.cs">
       <DependentUpon>frm_TicTacToe.cs</DependentUpon>
     </Compile>
-    <Compile Include="infoForm.cs" />
-    <Compile Include="infoForm.Designer.cs">
-      <DependentUpon>infoForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frm_TicTacToe.resx">
       <DependentUpon>frm_TicTacToe.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="infoForm.resx">
-      <DependentUpon>infoForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
