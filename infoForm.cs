@@ -4,23 +4,17 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Tic_Tac_Toe_TTC
+namespace ticTacToe
 {
-    public partial class frm_main : Form
+    public partial class infoForm : Form
     {
-        public frm_main()
+        public infoForm()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            PublicKey frm_
         }
     }
 }
