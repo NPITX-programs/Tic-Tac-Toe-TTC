@@ -20,7 +20,7 @@ namespace Tic_Tac_Toe_TTC
 
         private void button1_Click(object sender, EventArgs e)
         {
-            PublicKey frm_
+            var frm = Application.OpenForms[frm_info];
         }
     }
 }
