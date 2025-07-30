@@ -11,8 +11,8 @@ namespace ticTacToe
         internal static int coinFlip(bool invert)
         {
            Random random = new Random();
-            int out = random.Next(-1, 1);
-            return out;
+            int rand = random.Next(-1, 1);
+            return rand;
         }
     }
 }
