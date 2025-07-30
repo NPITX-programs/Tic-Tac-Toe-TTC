@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,5 +17,16 @@ namespace Tic_Tac_Toe_TTC
         {
             InitializeComponent();
         }
+        private void frm_main_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var frm = Application.OpenForms[frm_info];
+        }
+
+
     }
 }
