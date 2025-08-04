@@ -7,29 +7,38 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ticTacToe;
 
-namespace Tic_Tac_Toe_TTC
+namespace TicTacToeProject
 {
-    public partial class frm_main : Form
+    public partial class frmSplashScreen : Form
     {
-        public frm_main()
+        public frmSplashScreen()
         {
             InitializeComponent();
         }
 
-        private void btn_viewDebug_Click(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)
         {
-            var frm = Application.OpenForms["frm_debugInfo"];
-            if (frm == null)
+            if (progressBar1.Value < progressBar1.Maximum)
             {
-                frm = new frm_debugInfoForm();
-                frm.Show();
+                progressBar1.Value++;
             }
             else
             {
-                frm.BringToFront();
+                timer1.Stop();
+                this.Close(); // Close splash screen
+                
             }
+
+        }
+
+        private void frmSplashScreen_Load(object sender, EventArgs e)
+        {
+            timer1.Enabled = true;
+            timer1.Start();
+            timer1.Interval = 1000;
+            progressBar1.Maximum = 10;
+            timer1.Tick += new EventHandler(timer1_Tick);
         }
     }
 }
