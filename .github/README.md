@@ -2,9 +2,6 @@
 
 A simple, but still the ultimate, Tic Tac Toe app
 
-why does it need a readme? Well, the better question is; Why Not!
+why does it need a readme? Well, the better question is; Why Not! I mean, we can do much on it.
 
-
-
-P.S. This could use enhancement
-
+lart of the about the authars, perhaps. or maybe a part about the code itself. who knows.
