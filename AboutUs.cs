@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Tic_Tac_Toe_TTC
+namespace TicTacToeProject
 {
-    public partial class frm_main : Form
+    public partial class AboutUs : Form
     {
-        public frm_main()
+        public AboutUs()
         {
             InitializeComponent();
         }
