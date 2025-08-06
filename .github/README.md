@@ -1,4 +1,4 @@
-# Tic Tac Toe
+# Tic Tac Toe Program
 
 A simple, but still the ultimate, Tic Tac Toe app
 
