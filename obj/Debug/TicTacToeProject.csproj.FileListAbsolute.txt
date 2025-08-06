@@ -8,3 +8,9 @@ H:\Students_Folder\Charlie Hatch\Coding\Tic Tac Toe TTC\obj\Debug\TicTacToeProje
 H:\Students_Folder\Charlie Hatch\Coding\Tic Tac Toe TTC\obj\Debug\TicTacToeProject.frmSplashScreen.resources
 H:\Students_Folder\Charlie Hatch\Coding\Tic Tac Toe TTC\obj\Debug\TicTacToeProject.StartMenu.resources
 H:\Students_Folder\Charlie Hatch\Coding\Tic Tac Toe TTC\obj\Debug\TicTacToeProject.csproj.GenerateResource.cache
+H:\Students_Folder\Charlie Hatch\Coding\Tic Tac Toe TTC\bin\Debug\TicTacToeProject.exe
+H:\Students_Folder\Charlie Hatch\Coding\Tic Tac Toe TTC\bin\Debug\TicTacToeProject.pdb
+H:\Students_Folder\Charlie Hatch\Coding\Tic Tac Toe TTC\obj\Debug\TicTacToeProject.Properties.Resources.resources
+H:\Students_Folder\Charlie Hatch\Coding\Tic Tac Toe TTC\obj\Debug\TicTacToeProject.csproj.CoreCompileInputs.cache
+H:\Students_Folder\Charlie Hatch\Coding\Tic Tac Toe TTC\obj\Debug\TicTacToeProject.exe
+H:\Students_Folder\Charlie Hatch\Coding\Tic Tac Toe TTC\obj\Debug\TicTacToeProject.pdb

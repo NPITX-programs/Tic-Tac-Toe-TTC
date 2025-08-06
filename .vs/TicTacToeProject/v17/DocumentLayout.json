@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "H:\\Students_Folder\\Charlie Hatch\\Coding\\Tic Tac Toe TTC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A10D7015-A851-460A-BD5D-8B66E5D51D61}|TicTacToeProject.csproj|h:\\students_folder\\charlie hatch\\coding\\tic tac toe ttc\\startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A10D7015-A851-460A-BD5D-8B66E5D51D61}|TicTacToeProject.csproj|h:\\students_folder\\charlie hatch\\coding\\tic tac toe ttc\\startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10D7015-A851-460A-BD5D-8B66E5D51D61}|TicTacToeProject.csproj|solutionrelative:startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10D7015-A851-460A-BD5D-8B66E5D51D61}|TicTacToeProject.csproj|H:\\Students_Folder\\Charlie Hatch\\Coding\\Tic Tac Toe TTC\\startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A10D7015-A851-460A-BD5D-8B66E5D51D61}|TicTacToeProject.csproj|solutionrelative:startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -71,18 +75,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "StartMenu.cs",
+              "DocumentMoniker": "H:\\Students_Folder\\Charlie Hatch\\Coding\\Tic Tac Toe TTC\\StartMenu.cs",
+              "RelativeDocumentMoniker": "StartMenu.cs",
+              "ToolTip": "H:\\Students_Folder\\Charlie Hatch\\Coding\\Tic Tac Toe TTC\\StartMenu.cs",
+              "RelativeToolTip": "StartMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T20:44:48.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "StartMenu.cs [Design]",
               "DocumentMoniker": "H:\\Students_Folder\\Charlie Hatch\\Coding\\Tic Tac Toe TTC\\StartMenu.cs",
               "RelativeDocumentMoniker": "StartMenu.cs",
               "ToolTip": "H:\\Students_Folder\\Charlie Hatch\\Coding\\Tic Tac Toe TTC\\StartMenu.cs [Design]",
               "RelativeToolTip": "StartMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T20:31:14.646Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-04T20:31:14.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AboutUs.cs",
               "DocumentMoniker": "H:\\Students_Folder\\Charlie Hatch\\Coding\\Tic Tac Toe TTC\\AboutUs.cs",
               "RelativeDocumentMoniker": "AboutUs.cs",
@@ -94,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AboutUs.cs [Design]",
               "DocumentMoniker": "H:\\Students_Folder\\Charlie Hatch\\Coding\\Tic Tac Toe TTC\\AboutUs.cs",
               "RelativeDocumentMoniker": "AboutUs.cs",
@@ -105,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "H:\\Students_Folder\\Charlie Hatch\\Coding\\Tic Tac Toe TTC\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
