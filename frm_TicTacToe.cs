@@ -8,37 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TicTacToeProject
+namespace Tic_Tac_Toe_TTC
 {
+    public partial class frm_main : Form
+    {
+        public frm_main()
     public partial class frmSplashScreen : Form
     {
         public frmSplashScreen()
         {
             InitializeComponent();
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            if (progressBar1.Value < progressBar1.Maximum)
-            {
-                progressBar1.Value++;
-            }
-            else
-            {
-                timer1.Stop();
-                this.Close(); // Close splash screen
-                
-            }
-
-        }
-
-        private void frmSplashScreen_Load(object sender, EventArgs e)
-        {
-            timer1.Enabled = true;
-            timer1.Start();
-            timer1.Interval = 1000;
-            progressBar1.Maximum = 10;
-            timer1.Tick += new EventHandler(timer1_Tick);
         }
     }
 }
