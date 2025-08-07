@@ -1,0 +1,19 @@
+{
+  "version": "0.2.1",
+  "configurations": [
+    {
+      "project": "project-stub.liveshare",
+      "name": "Default",
+      "type": "default"
+    },
+    {
+      "debugSession": null,
+      "name": "TicTacToeProject",
+      "project": "project-stub-debug.liveshare",
+      "projectId": "a10d7015-a851-460a-bd5d-8b66e5d51d61",
+      "projectTarget": "75ae39fb-5bc8-4fc3-942c-e23dfb127a0b",
+      "request": "attach",
+      "type": "vslsRemoteLaunch"
+    }
+  ]
+}
