@@ -1,5 +1,0 @@
-H:\Students_Folder\Husam Eghneim\Coding TTC\TicTacToeProject\obj\Debug\TicTacToeProject.csproj.AssemblyReference.cache
-H:\Students_Folder\Husam Eghneim\Coding TTC\TicTacToeProject\obj\Debug\TicTacToeProject.AboutUs.resources
-H:\Students_Folder\Husam Eghneim\Coding TTC\TicTacToeProject\obj\Debug\TicTacToeProject.frmSplashScreen.resources
-H:\Students_Folder\Husam Eghneim\Coding TTC\TicTacToeProject\obj\Debug\TicTacToeProject.StartMenu.resources
-H:\Students_Folder\Husam Eghneim\Coding TTC\TicTacToeProject\obj\Debug\TicTacToeProject.csproj.GenerateResource.cache
