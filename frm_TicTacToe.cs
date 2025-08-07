@@ -13,6 +13,9 @@ namespace Tic_Tac_Toe_TTC
     public partial class frm_main : Form
     {
         public frm_main()
+    public partial class frmSplashScreen : Form
+    {
+        public frmSplashScreen()
         {
             InitializeComponent();
         }
