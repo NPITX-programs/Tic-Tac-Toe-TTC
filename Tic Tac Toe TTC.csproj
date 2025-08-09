@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="coinFlip.cs" />
     <Compile Include="frm_TicTacToe.cs">
       <SubType>Form</SubType>
     </Compile>
