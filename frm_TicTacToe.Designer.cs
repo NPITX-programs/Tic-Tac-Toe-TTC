@@ -1,6 +1,6 @@
-﻿namespace TicTacToeProject
+﻿namespace Tic_Tac_Toe_TTC
 {
-    partial class frmSplashScreen
+    partial class frm_main
     {
         /// <summary>
         /// Required designer variable.
