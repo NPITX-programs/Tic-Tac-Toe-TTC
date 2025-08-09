@@ -1,8 +1,14 @@
-# Tic Tac Toe Program
+# \# Tic Tac Toe
 
-A simple, but still the ultimate, Tic Tac Toe app
+# 
 
-why does it need a readme? Well, the better question is; Why Not!
-After All, we can do much on it.
+# A simple, but still the ultimate, Tic Tac Toe app
 
-part of the About the Authors, perhaps. Or maybe a part about the code itself. Who knows!
+# 
+
+# why does it need a readme? Well, the better question is; Why Not!
+
+# After All, we can do much on it.
+
+# part of the About the Authors, perhaps. Or maybe a part about the code itself. Who knows!
+
