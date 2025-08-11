@@ -126,6 +126,7 @@
             this.btn_simpleDebug.TabIndex = 9;
             this.btn_simpleDebug.Text = "Trigger";
             this.btn_simpleDebug.UseVisualStyleBackColor = true;
+            this.btn_simpleDebug.Click += new System.EventHandler(this.btn_simpleDebug_Click);
             // 
             // txt_debugText
             // 

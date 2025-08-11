@@ -36,5 +36,10 @@ namespace TicTacToeProject
         {
 
         }
+
+        private void btn_simpleDebug_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
