@@ -40,5 +40,10 @@ namespace TicTacToeProject
             progressBar1.Maximum = 10;
             timer1.Tick += new EventHandler(timer1_Tick);
         }
+
+        private void btn_simpleDebug_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
