@@ -35,6 +35,8 @@
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.label3 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.btn_simpleDebug = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -82,12 +84,31 @@
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // btn_simpleDebug
+            // 
+            this.btn_simpleDebug.Location = new System.Drawing.Point(0, 0);
+            this.btn_simpleDebug.Name = "btn_simpleDebug";
+            this.btn_simpleDebug.Size = new System.Drawing.Size(75, 23);
+            this.btn_simpleDebug.TabIndex = 4;
+            this.btn_simpleDebug.Text = "Trigger";
+            this.btn_simpleDebug.UseVisualStyleBackColor = true;
+            this.btn_simpleDebug.Click += new System.EventHandler(this.btn_simpleDebug_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(0, 59);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 5;
+            // 
             // frmSplashScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btn_simpleDebug);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.label2);
@@ -108,6 +129,8 @@
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button btn_simpleDebug;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
