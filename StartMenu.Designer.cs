@@ -36,6 +36,7 @@
             this.txtSinglePlayerName = new System.Windows.Forms.TextBox();
             this.txtPlayer1Name = new System.Windows.Forms.TextBox();
             this.txtPlayer2Name = new System.Windows.Forms.TextBox();
+            this.btn_simpleDebug = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -116,12 +117,22 @@
             this.txtPlayer2Name.Text = "Player 2";
             this.txtPlayer2Name.Visible = false;
             // 
+            // btn_simpleDebug
+            // 
+            this.btn_simpleDebug.Location = new System.Drawing.Point(12, 12);
+            this.btn_simpleDebug.Name = "btn_simpleDebug";
+            this.btn_simpleDebug.Size = new System.Drawing.Size(75, 23);
+            this.btn_simpleDebug.TabIndex = 9;
+            this.btn_simpleDebug.Text = "Trigger";
+            this.btn_simpleDebug.UseVisualStyleBackColor = true;
+            // 
             // StartMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(705, 533);
+            this.Controls.Add(this.btn_simpleDebug);
             this.Controls.Add(this.txtPlayer2Name);
             this.Controls.Add(this.txtPlayer1Name);
             this.Controls.Add(this.txtSinglePlayerName);
@@ -148,5 +159,6 @@
         private System.Windows.Forms.TextBox txtSinglePlayerName;
         private System.Windows.Forms.TextBox txtPlayer1Name;
         private System.Windows.Forms.TextBox txtPlayer2Name;
+        private System.Windows.Forms.Button btn_simpleDebug;
     }
 }
