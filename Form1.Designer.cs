@@ -94,7 +94,7 @@
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmSplashScreen";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tic-Tac-Toe";
             this.Load += new System.EventHandler(this.frmSplashScreen_Load);
             this.ResumeLayout(false);
