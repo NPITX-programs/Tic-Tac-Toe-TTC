@@ -26,6 +26,5 @@ namespace TicTacToeProject
             Application.Run(new StartMenu()); // Launch main form after splash closes
 
         }
-        TicTacToeProject.ticTacToe.
     }
 }
