@@ -103,6 +103,7 @@
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.SkyBlue;
             this.Name = "AboutUs";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AboutUs";
             this.ResumeLayout(false);
             this.PerformLayout();
