@@ -43,7 +43,8 @@ namespace TicTacToeProject
 
         private void btn_simpleDebug_Click(object sender, EventArgs e)
         {
-            TicTacToe.randomize.coinFlip()
+            int coin = TicTacToe.randomize.coinFlip();
+            textBox1.Text = coin.ToString();
         }
     }
 }
