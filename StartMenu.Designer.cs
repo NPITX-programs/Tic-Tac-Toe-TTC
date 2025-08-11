@@ -37,6 +37,7 @@
             this.txtPlayer1Name = new System.Windows.Forms.TextBox();
             this.txtPlayer2Name = new System.Windows.Forms.TextBox();
             this.btn_simpleDebug = new System.Windows.Forms.Button();
+            this.txt_debugText = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -126,12 +127,20 @@
             this.btn_simpleDebug.Text = "Trigger";
             this.btn_simpleDebug.UseVisualStyleBackColor = true;
             // 
+            // txt_debugText
+            // 
+            this.txt_debugText.Location = new System.Drawing.Point(12, 41);
+            this.txt_debugText.Name = "txt_debugText";
+            this.txt_debugText.Size = new System.Drawing.Size(100, 20);
+            this.txt_debugText.TabIndex = 10;
+            // 
             // StartMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(705, 533);
+            this.Controls.Add(this.txt_debugText);
             this.Controls.Add(this.btn_simpleDebug);
             this.Controls.Add(this.txtPlayer2Name);
             this.Controls.Add(this.txtPlayer1Name);
@@ -160,5 +169,6 @@
         private System.Windows.Forms.TextBox txtPlayer1Name;
         private System.Windows.Forms.TextBox txtPlayer2Name;
         private System.Windows.Forms.Button btn_simpleDebug;
+        private System.Windows.Forms.TextBox txt_debugText;
     }
 }
