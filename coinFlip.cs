@@ -8,7 +8,7 @@ namespace TicTacToe
 {
     internal class randomize
     {
-        internal static int coinFlip(bool invert = false)
+        internal static int coinFlip(bool asBool = false, bool invert = false)
         {
            Random random = new Random();
             int randVal = 0; //intermediary value
@@ -24,7 +24,36 @@ namespace TicTacToe
                 randVal = random.Next(0, 100);
             }
             randVal = randVal % 2;
-            return randVal;
+            bool result = true;
+            if (randVal == 0) //convert to boolean
+            {
+                result = false;
+            } else
+            {
+                result = true;
+            }
+
+            if(invert)
+            {
+                result = !!result;
+            }
+
+            if(asBool)
+            {
+                return result;
+            } else
+            {
+                int randNum = 0;
+                if(result)
+                {
+                    randNum = 1;
+                }
+                else
+                {
+                    randNum = 0;
+                }
+                return randNum;
+            }
         }
     }
 }
