@@ -30,6 +30,6 @@ namespace TicTacToe
 
             randVal = randVal % 2;
             return randVal;
-        } //coin flip algorithim. To run, use: 
+        } //coin flip algorithim. To run, use: TicTacToe.randomize.coinFlip()
     }
 }
