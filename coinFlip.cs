@@ -12,7 +12,7 @@ namespace TicTacToe
         {
            Random random = new Random();
             int randVal = 0; //intermediary value
-            int rand = random.Next(-1, 1); //
+            int rand = random.Next(-1, 1); //choose between 3 parts (to spread seed useage
             if(rand == -1)
             {
                 randVal = random.Next(0, 100);
@@ -23,6 +23,8 @@ namespace TicTacToe
             {
                 randVal = random.Next(0, 100);
             }
+            randVal = randVal % 2;
+            return randVal;
         }
     }
 }
