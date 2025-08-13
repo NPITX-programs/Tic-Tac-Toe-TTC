@@ -36,11 +36,5 @@ namespace TicTacToeProject
         {
 
         }
-
-        private void btn_simpleDebug_Click(object sender, EventArgs e)
-        {
-            int coin = TicTacToe.randomize.coinFlip();
-            txt_debugText.Text = coin.ToString();
-        }
     }
 }
