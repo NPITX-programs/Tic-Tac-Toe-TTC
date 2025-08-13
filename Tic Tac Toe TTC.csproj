@@ -50,12 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frm_debugInfoForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_debugInfoForm.Designer.cs">
-      <DependentUpon>frm_debugInfoForm.cs</DependentUpon>
-    </Compile>
+    <Compile Include="coinFlip.cs" />
     <Compile Include="frm_TicTacToe.cs">
       <SubType>Form</SubType>
     </Compile>
