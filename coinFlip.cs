@@ -30,6 +30,6 @@ namespace TicTacToe
 
             randVal = randVal % 2;
             return randVal;
-        } //if inverted, add one
+        } //coin flip algorithim. To run, use: 
     }
 }
