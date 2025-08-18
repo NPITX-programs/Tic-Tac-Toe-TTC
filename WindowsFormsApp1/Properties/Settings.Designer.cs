@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TicTacToeProject.Properties
+namespace WindowsFormsApp1.Properties
 {
 
 
