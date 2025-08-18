@@ -1,0 +1,1 @@
+this is to integrate in other's codebases, used as a pre-set starting point, to give a common, safe location
