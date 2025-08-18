@@ -1,1 +1,4 @@
-Name of author of code, name of branch
+Coin Flip, Start Screen, and splash screen
+
+-Charlie
+-Husam
