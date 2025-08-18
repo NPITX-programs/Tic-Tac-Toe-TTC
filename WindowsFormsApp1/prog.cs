@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace TicTacToeProject
 {
     internal static class prog
     {
@@ -16,7 +16,15 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmFont());
+
+
+            using (frmSplashScreen splash = new frmSplashScreen())
+            {
+                splash.ShowDialog(); // Waits until splash is closed
+            }
+
+            Application.Run(new StartMenu()); // Launch main form after splash closes
+
         }
     }
 }
