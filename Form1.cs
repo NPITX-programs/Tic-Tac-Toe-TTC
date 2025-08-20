@@ -8,37 +8,75 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TicTacToeProject
+namespace WindowsFormsApp1
 {
-    public partial class frmSplashScreen : Form
+    public partial class frmFont : Form
     {
-        public frmSplashScreen()
+        public frmFont()
         {
             InitializeComponent();
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            if (progressBar1.Value < progressBar1.Maximum)
-            {
-                progressBar1.Value++;
-            }
-            else
-            {
-                timer1.Stop();
-                this.Close(); // Close splash screen
-                
-            }
 
+        private void btnColor_Click(object sender, EventArgs e)
+        {
+            if(cdColor.ShowDialog() == DialogResult.OK) //a method is used to display a Dialog box for selecting a color 
+            {
+                btnColor.ForeColor = cdColor.Color;  //to set the foreground color of a button
+            }
         }
 
-        private void frmSplashScreen_Load(object sender, EventArgs e)
+        private void btnQuit_Click(object sender, EventArgs e)
         {
-            timer1.Enabled = true;
-            timer1.Start();
-            timer1.Interval = 1000;
-            progressBar1.Maximum = 10;
-            timer1.Tick += new EventHandler(timer1_Tick);
+            if(cdColor.ShowDialog() == DialogResult.OK) //a method is used to display a Dialog box for selecting a color
+            {
+                btnQuit.ForeColor = cdColor.Color;   //to set the foreground color of a button 
+            }
+        }
+
+        private void btnPause_Click(object sender, EventArgs e)
+        {
+            if(cdColor.ShowDialog() == DialogResult.OK) //a method is used to display a Dialog box for selecting a color 
+            {
+                btnPause.ForeColor = cdColor.Color;  //to set the foreground color of a button
+            }
+        }
+
+        private void btnRestart_Click(object sender, EventArgs e)
+        {
+            if(cdColor.ShowDialog() == DialogResult.OK) //a method is used to display a Dialog box for selecting a color 
+            {
+                btnRestart.ForeColor = cdColor.Color; //to set the foreground color of a button 
+            }
+        }
+
+        private void btnNewGame_Click(object sender, EventArgs e)
+        {
+            if(cdColor.ShowDialog() == DialogResult.OK) //a method is used to display a Dialog box for selecting a color
+            {
+                btnNewGame.ForeColor = cdColor.Color; //to set the foreground color of a button 
+            }
+        }
+
+        private void btnSinglePlayer_Click(object sender, EventArgs e)
+        {
+            if(cdColor.ShowDialog() == DialogResult.OK) //a method is used to display a Dialog box for selecting a color
+            {
+                btnSinglePlayer.ForeColor = cdColor.Color; //to set the foreground color of a button
+            }
+        }
+
+        private void btnMultiPlayer_Click(object sender, EventArgs e)
+        {
+            if(cdColor.ShowDialog() == DialogResult.OK) //a method is used to display a Dialog box for selecting a color
+            {
+                btnMultiPlayer.ForeColor = cdColor.Color; //to set the foreground color of a button
+            }
+        }
+
+        private void frmFont_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
