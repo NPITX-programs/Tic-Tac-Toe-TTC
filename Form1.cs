@@ -73,5 +73,10 @@ namespace WindowsFormsApp1
                 btnMultiPlayer.ForeColor = cdColor.Color; //to set the foreground color of a button
             }
         }
+
+        private void frmFont_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -139,6 +139,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmFont";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.frmFont_Load);
             this.ResumeLayout(false);
 
         }
