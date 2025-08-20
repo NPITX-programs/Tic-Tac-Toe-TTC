@@ -365,4 +365,8 @@ FodyWeavers.xsd
 *.bkp
 *.dtmp
 
+
 /.transfer
+/.vs/TicTacToeProject
+/.vs/TicTacToeProject
+/.vs/TicTacToeProject/v17/.suo
