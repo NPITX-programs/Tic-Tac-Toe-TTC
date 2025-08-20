@@ -1,6 +1,6 @@
-﻿namespace TicTacToeProject
+﻿namespace WindowsFormsApp1
 {
-    partial class frmSplashScreen
+    partial class frmFont
     {
         /// <summary>
         /// Required designer variable.
@@ -28,87 +28,131 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSplashScreen));
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.label3 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.cdColor = new System.Windows.Forms.ColorDialog();
+            this.btnColor = new System.Windows.Forms.Button();
+            this.btnPause = new System.Windows.Forms.Button();
+            this.btnNewGame = new System.Windows.Forms.Button();
+            this.btnSinglePlayer = new System.Windows.Forms.Button();
+            this.btnMultiPlayer = new System.Windows.Forms.Button();
+            this.btnQuit = new System.Windows.Forms.Button();
+            this.btnRestart = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // btnColor
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Sienna;
-            this.label1.Location = new System.Drawing.Point(133, 94);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(518, 109);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Tic-Tac-Toe";
+            this.btnColor.BackColor = System.Drawing.Color.Lime;
+            this.btnColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnColor.Location = new System.Drawing.Point(471, 108);
+            this.btnColor.Name = "btnColor";
+            this.btnColor.Size = new System.Drawing.Size(93, 23);
+            this.btnColor.TabIndex = 3;
+            this.btnColor.Text = "START";
+            this.btnColor.UseVisualStyleBackColor = false;
+            this.btnColor.Click += new System.EventHandler(this.btnColor_Click);
             // 
-            // label2
+            // btnPause
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Sienna;
-            this.label2.Location = new System.Drawing.Point(753, 13);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 19);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "v1.0";
+            this.btnPause.BackColor = System.Drawing.Color.Aquamarine;
+            this.btnPause.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPause.Location = new System.Drawing.Point(471, 219);
+            this.btnPause.Name = "btnPause";
+            this.btnPause.Size = new System.Drawing.Size(93, 23);
+            this.btnPause.TabIndex = 4;
+            this.btnPause.Text = "PAUSE";
+            this.btnPause.UseVisualStyleBackColor = false;
+            this.btnPause.Click += new System.EventHandler(this.btnPause_Click);
             // 
-            // progressBar1
+            // btnNewGame
             // 
-            this.progressBar1.Location = new System.Drawing.Point(12, 385);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(776, 23);
-            this.progressBar1.TabIndex = 2;
+            this.btnNewGame.BackColor = System.Drawing.Color.Violet;
+            this.btnNewGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewGame.Location = new System.Drawing.Point(454, 322);
+            this.btnNewGame.Name = "btnNewGame";
+            this.btnNewGame.Size = new System.Drawing.Size(119, 23);
+            this.btnNewGame.TabIndex = 5;
+            this.btnNewGame.Text = "NEW GAME";
+            this.btnNewGame.UseVisualStyleBackColor = false;
+            this.btnNewGame.Click += new System.EventHandler(this.btnNewGame_Click);
             // 
-            // label3
+            // btnSinglePlayer
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Sienna;
-            this.label3.Location = new System.Drawing.Point(205, 217);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(375, 23);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "By: Husam, Ryan, Adam, Charlie, and Angel";
+            this.btnSinglePlayer.BackColor = System.Drawing.Color.Pink;
+            this.btnSinglePlayer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSinglePlayer.Location = new System.Drawing.Point(438, 371);
+            this.btnSinglePlayer.Name = "btnSinglePlayer";
+            this.btnSinglePlayer.Size = new System.Drawing.Size(152, 23);
+            this.btnSinglePlayer.TabIndex = 6;
+            this.btnSinglePlayer.Text = "SINGLE PLAYER";
+            this.btnSinglePlayer.UseVisualStyleBackColor = false;
+            this.btnSinglePlayer.Click += new System.EventHandler(this.btnSinglePlayer_Click);
             // 
-            // timer1
+            // btnMultiPlayer
             // 
-            this.timer1.Enabled = true;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.btnMultiPlayer.BackColor = System.Drawing.Color.Yellow;
+            this.btnMultiPlayer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMultiPlayer.Location = new System.Drawing.Point(438, 427);
+            this.btnMultiPlayer.Name = "btnMultiPlayer";
+            this.btnMultiPlayer.Size = new System.Drawing.Size(152, 23);
+            this.btnMultiPlayer.TabIndex = 7;
+            this.btnMultiPlayer.Text = "MULTIPLAYER";
+            this.btnMultiPlayer.UseVisualStyleBackColor = false;
+            this.btnMultiPlayer.Click += new System.EventHandler(this.btnMultiPlayer_Click);
             // 
-            // frmSplashScreen
+            // btnQuit
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.btnQuit.BackColor = System.Drawing.Color.OrangeRed;
+            this.btnQuit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuit.Location = new System.Drawing.Point(471, 163);
+            this.btnQuit.Name = "btnQuit";
+            this.btnQuit.Size = new System.Drawing.Size(93, 23);
+            this.btnQuit.TabIndex = 8;
+            this.btnQuit.Text = "QUIT";
+            this.btnQuit.UseVisualStyleBackColor = false;
+            this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
+            // 
+            // btnRestart
+            // 
+            this.btnRestart.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnRestart.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRestart.Location = new System.Drawing.Point(460, 271);
+            this.btnRestart.Name = "btnRestart";
+            this.btnRestart.Size = new System.Drawing.Size(113, 23);
+            this.btnRestart.TabIndex = 9;
+            this.btnRestart.Text = "RESTART";
+            this.btnRestart.UseVisualStyleBackColor = false;
+            this.btnRestart.Click += new System.EventHandler(this.btnRestart_Click);
+            // 
+            // frmFont
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SkyBlue;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "frmSplashScreen";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Tic-Tac-Toe";
-            this.Load += new System.EventHandler(this.frmSplashScreen_Load);
+            this.BackColor = System.Drawing.Color.IndianRed;
+            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.btnRestart);
+            this.Controls.Add(this.btnQuit);
+            this.Controls.Add(this.btnMultiPlayer);
+            this.Controls.Add(this.btnSinglePlayer);
+            this.Controls.Add(this.btnNewGame);
+            this.Controls.Add(this.btnPause);
+            this.Controls.Add(this.btnColor);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "frmFont";
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.frmFont_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.ColorDialog cdColor;
+        private System.Windows.Forms.Button btnColor;
+        private System.Windows.Forms.Button btnPause;
+        private System.Windows.Forms.Button btnNewGame;
+        private System.Windows.Forms.Button btnSinglePlayer;
+        private System.Windows.Forms.Button btnMultiPlayer;
+        private System.Windows.Forms.Button btnQuit;
+        private System.Windows.Forms.Button btnRestart;
     }
 }
 
