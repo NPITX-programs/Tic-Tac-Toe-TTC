@@ -1,0 +1,2 @@
+improve .gitignore by ignoreing *and* untracking everything
+
