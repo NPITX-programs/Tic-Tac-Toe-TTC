@@ -379,15 +379,24 @@ ASALocalRun/
 
 # MSBuild Binary and Structured Log
 *.binlog
+MSBuild_Logs/
+
+# AWS SAM Build and Temporary Artifacts folder
+.aws-sam
 
 # NVidia Nsight GPU debugger configuration file
 *.nvuser
 
 # MFractors (Xamarin productivity tool) working folder
 .mfractor/
+**/.mfractor/
 
 # Local History for Visual Studio
 .localhistory/
+**/.localhistory/
+
+# Visual Studio History (VSHistory) files
+.vshistory/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
@@ -397,6 +406,28 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+**/.ionide/
 
 # Fody - auto-generated XML schema
-FodyWeavers.xsd
+FodyWeavers.xsdFodyWeavers.xsd
+
+# VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# Windows Installer files from build outputs
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
