@@ -367,6 +367,5 @@ FodyWeavers.xsd
 
 
 /.transfer
-/.vs/TicTacToeProject
-/.vs/TicTacToeProject
-/.vs/TicTacToeProject/v17/.suo
+
+# ignore and untrack
