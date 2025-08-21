@@ -361,12 +361,3 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-.github/Design Information/Thumbs.db
-*.bkp
-*.dtmp
-
-
-/.transfer
-/.vs/TicTacToeProject
-/.vs/TicTacToeProject
-/.vs/TicTacToeProject/v17/.suo
