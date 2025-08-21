@@ -1,6 +1,0 @@
-H:\Students_Folder\Charlie Hatch\Coding\Tic Tac Toe TTC\obj\Debug\TicTacToeProject.csproj.AssemblyReference.cache
-H:\Students_Folder\Charlie Hatch\Coding\Tic Tac Toe TTC\obj\Debug\TicTacToeProject.AboutUs.resources
-H:\Students_Folder\Charlie Hatch\Coding\Tic Tac Toe TTC\obj\Debug\WindowsFormsApp1.frmFont.resources
-H:\Students_Folder\Charlie Hatch\Coding\Tic Tac Toe TTC\obj\Debug\TicTacToeProject.frmSplashScreen.resources
-H:\Students_Folder\Charlie Hatch\Coding\Tic Tac Toe TTC\obj\Debug\TicTacToeProject.StartMenu.resources
-H:\Students_Folder\Charlie Hatch\Coding\Tic Tac Toe TTC\obj\Debug\TicTacToeProject.csproj.GenerateResource.cache
