@@ -52,7 +52,6 @@
     <Compile Include="AboutUs.Designer.cs">
       <DependentUpon>AboutUs.cs</DependentUpon>
     </Compile>
-    <Compile Include="coinFlip.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
