@@ -42,7 +42,7 @@
             // 
             this.btnColor.BackColor = System.Drawing.Color.Lime;
             this.btnColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnColor.Location = new System.Drawing.Point(471, 108);
+            this.btnColor.Location = new System.Drawing.Point(454, 107);
             this.btnColor.Name = "btnColor";
             this.btnColor.Size = new System.Drawing.Size(93, 23);
             this.btnColor.TabIndex = 3;
