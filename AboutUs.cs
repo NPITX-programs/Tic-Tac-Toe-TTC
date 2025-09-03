@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TicTacToeProject
 {
-    public partial class AboutUs : Form
+    public partial class frm_AboutUs : Form
     {
-        public AboutUs()
+        public frm_AboutUs()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace TicTacToe
 {
-    partial class gameUI
+    partial class frm_gameUI
     {
         /// <summary>
         /// Required designer variable.
@@ -43,10 +43,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -216,16 +216,6 @@
             this.panel1.TabIndex = 3;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(29, 16);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(72, 13);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Player 1 Wins";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -234,15 +224,6 @@
             this.label6.Size = new System.Drawing.Size(72, 13);
             this.label6.TabIndex = 0;
             this.label6.Text = "Player 2 Wins";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(29, 62);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(0, 13);
-            this.label7.TabIndex = 0;
-            this.label7.Click += new System.EventHandler(this.label5_Click);
             // 
             // label8
             // 
@@ -253,7 +234,26 @@
             this.label8.TabIndex = 0;
             this.label8.Click += new System.EventHandler(this.label5_Click);
             // 
-            // Form1
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(29, 62);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(0, 13);
+            this.label7.TabIndex = 0;
+            this.label7.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(29, 16);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(72, 13);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Player 1 Wins";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // frm_gameUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -275,8 +275,8 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button1);
             this.ForeColor = System.Drawing.Color.White;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frm_gameUI";
+            this.Text = "Playscreen";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
