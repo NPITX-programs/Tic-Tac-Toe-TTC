@@ -1,6 +1,6 @@
 ﻿namespace TicTacToeProject
 {
-    partial class StartMenu
+    partial class frm_StartMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -116,7 +116,7 @@
             this.txtPlayer2Name.Text = "Player 2";
             this.txtPlayer2Name.Visible = false;
             // 
-            // StartMenu
+            // frm_StartMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -131,9 +131,10 @@
             this.Controls.Add(this.btnSinglePlayer);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Name = "StartMenu";
+            this.Name = "frm_StartMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "StartMenu";
+            this.Text = "Start Menu";
+            this.Load += new System.EventHandler(this.frm_StartMenu_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
