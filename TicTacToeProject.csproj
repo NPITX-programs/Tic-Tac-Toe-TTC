@@ -53,6 +53,12 @@
       <DependentUpon>AboutUs.cs</DependentUpon>
     </Compile>
     <Compile Include="coinFlip.cs" />
+    <Compile Include="colorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="colorForm.Designer.cs">
+      <DependentUpon>colorForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="gameUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     </Compile>
     <EmbeddedResource Include="AboutUs.resx">
       <DependentUpon>AboutUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="colorForm.resx">
+      <DependentUpon>colorForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="gameUI.resx">
       <DependentUpon>gameUI.cs</DependentUpon>

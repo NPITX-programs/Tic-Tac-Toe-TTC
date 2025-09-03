@@ -1,6 +1,6 @@
 ﻿namespace TicTacToeProject
 {
-    partial class StartMenu
+    partial class frm_StartMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -36,7 +36,6 @@
             this.txtSinglePlayerName = new System.Windows.Forms.TextBox();
             this.txtPlayer1Name = new System.Windows.Forms.TextBox();
             this.txtPlayer2Name = new System.Windows.Forms.TextBox();
-            this.btnStart = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -98,7 +97,6 @@
             this.txtSinglePlayerName.TabIndex = 6;
             this.txtSinglePlayerName.Text = "Player 1";
             this.txtSinglePlayerName.Visible = false;
-            this.txtSinglePlayerName.TextChanged += new System.EventHandler(this.txtSinglePlayerName_TextChanged);
             // 
             // txtPlayer1Name
             // 
@@ -108,7 +106,6 @@
             this.txtPlayer1Name.TabIndex = 7;
             this.txtPlayer1Name.Text = "Player 1";
             this.txtPlayer1Name.Visible = false;
-            this.txtPlayer1Name.TextChanged += new System.EventHandler(this.txtPlayer1Name_TextChanged);
             // 
             // txtPlayer2Name
             // 
@@ -118,25 +115,13 @@
             this.txtPlayer2Name.TabIndex = 8;
             this.txtPlayer2Name.Text = "Player 2";
             this.txtPlayer2Name.Visible = false;
-            this.txtPlayer2Name.TextChanged += new System.EventHandler(this.txtPlayer2Name_TextChanged);
             // 
-            // btnStart
-            // 
-            this.btnStart.Location = new System.Drawing.Point(272, 407);
-            this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(212, 23);
-            this.btnStart.TabIndex = 9;
-            this.btnStart.Text = "Start Game!";
-            this.btnStart.UseVisualStyleBackColor = true;
-            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
-            // 
-            // StartMenu
+            // frm_StartMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(705, 533);
-            this.Controls.Add(this.btnStart);
             this.Controls.Add(this.txtPlayer2Name);
             this.Controls.Add(this.txtPlayer1Name);
             this.Controls.Add(this.txtSinglePlayerName);
@@ -146,10 +131,10 @@
             this.Controls.Add(this.btnSinglePlayer);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Name = "StartMenu";
+            this.Name = "frm_StartMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "StartMenu";
-            this.Load += new System.EventHandler(this.StartMenu_Load);
+            this.Text = "Start Menu";
+            this.Load += new System.EventHandler(this.frm_StartMenu_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -165,6 +150,5 @@
         private System.Windows.Forms.TextBox txtSinglePlayerName;
         private System.Windows.Forms.TextBox txtPlayer1Name;
         private System.Windows.Forms.TextBox txtPlayer2Name;
-        private System.Windows.Forms.Button btnStart;
     }
 }

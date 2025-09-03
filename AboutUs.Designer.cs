@@ -1,6 +1,6 @@
 ﻿namespace TicTacToeProject
 {
-    partial class AboutUs
+    partial class frm_AboutUs
     {
         /// <summary>
         /// Required designer variable.
