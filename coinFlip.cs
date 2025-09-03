@@ -8,7 +8,7 @@ namespace TicTacToe
 {
     internal class randomize
     {
-        internal static int coinFlip(bool invert = false)
+        internal static int conFlip(bool invert = false)
         {
            Random random = new Random();
             int randVal = 0; //intermediary value
