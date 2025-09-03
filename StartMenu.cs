@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TicTacToeProject
 {
-    public partial class StartMenu : Form
+    public partial class frm_StartMenu : Form
     {
-        public StartMenu()
+        public frm_StartMenu()
         {
             InitializeComponent();
         }
@@ -33,6 +33,11 @@ namespace TicTacToeProject
         }
 
         private void btnMultiplayer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frm_StartMenu_Load(object sender, EventArgs e)
         {
 
         }
