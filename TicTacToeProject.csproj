@@ -53,11 +53,17 @@
       <DependentUpon>AboutUs.cs</DependentUpon>
     </Compile>
     <Compile Include="coinFlip.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="colorForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="colorForm.Designer.cs">
+      <DependentUpon>colorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gameUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gameUI.Designer.cs">
+      <DependentUpon>gameUI.cs</DependentUpon>
     </Compile>
     <Compile Include="SplashScreen.cs">
       <SubType>Form</SubType>
@@ -76,8 +82,11 @@
     <EmbeddedResource Include="AboutUs.resx">
       <DependentUpon>AboutUs.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="colorForm.resx">
+      <DependentUpon>colorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gameUI.resx">
+      <DependentUpon>gameUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SplashScreen.resx">
       <DependentUpon>SplashScreen.cs</DependentUpon>
@@ -103,6 +112,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DebugCode\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

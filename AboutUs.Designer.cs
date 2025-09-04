@@ -1,6 +1,6 @@
 ﻿namespace TicTacToeProject
 {
-    partial class AboutUs
+    partial class frm_AboutUs
     {
         /// <summary>
         /// Required designer variable.
@@ -90,7 +90,7 @@
             this.label5.TabIndex = 5;
             this.label5.Text = "Ryan:";
             // 
-            // AboutUs
+            // frm_AboutUs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -102,9 +102,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.SkyBlue;
-            this.Name = "AboutUs";
+            this.Name = "frm_AboutUs";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AboutUs";
+            this.Text = "About Us";
             this.ResumeLayout(false);
             this.PerformLayout();
 
