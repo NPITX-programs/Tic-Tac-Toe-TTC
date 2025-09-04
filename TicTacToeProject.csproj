@@ -59,6 +59,12 @@
     <Compile Include="colorForm.Designer.cs">
       <DependentUpon>colorForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DebugCode\debugForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DebugCode\debugForm.Designer.cs">
+      <DependentUpon>debugForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="gameUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="colorForm.resx">
       <DependentUpon>colorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DebugCode\debugForm.resx">
+      <DependentUpon>debugForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="gameUI.resx">
       <DependentUpon>gameUI.cs</DependentUpon>
@@ -113,8 +122,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DebugCode\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
