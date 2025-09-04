@@ -16,5 +16,10 @@ namespace TicTacToeProject.DebugCode
         {
             InitializeComponent();
         }
+
+        private void frm_debug_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
