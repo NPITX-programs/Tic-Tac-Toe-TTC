@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace TicTacToeProject
 {
-    public partial class frm_StartMenu : Form 
+    public partial class frm_StartMenu : Form
     {
         private string selectedMode = "";
 
