@@ -23,7 +23,7 @@ namespace TicTacToeProject
                 splash.ShowDialog(); // Waits until splash is closed
             }
 
-            Application.Run(new StartMenu()); // Launch main form after splash closes
+            Application.Run(new frm_StartMenu()); // Launch main form after splash closes
 
         }
     }
