@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TicTacToe;
 
 namespace TicTacToeProject
 {
@@ -67,7 +68,7 @@ namespace TicTacToeProject
                     return;
                 }
 
-                gameUI gameForm = new gameUI("SinglePlayer", name);
+                frm_gameUI gameForm = new frm_gameUI("SinglePlayer", name);
                 gameForm.Show();
                 this.Hide();
             }
@@ -82,7 +83,7 @@ namespace TicTacToeProject
                     return;
                 }
 
-                gameUI gameForm = new gameUI("Multiplayer", p1, p2);
+                frm_gameUI gameForm = new frm_gameUI("Multiplayer", p1, p2);
                 gameForm.Show();
                 this.Hide();
             }
