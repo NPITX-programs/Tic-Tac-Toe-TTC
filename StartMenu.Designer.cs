@@ -36,6 +36,7 @@
             this.txtSinglePlayerName = new System.Windows.Forms.TextBox();
             this.txtPlayer1Name = new System.Windows.Forms.TextBox();
             this.txtPlayer2Name = new System.Windows.Forms.TextBox();
+            this.btnStart = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -116,12 +117,23 @@
             this.txtPlayer2Name.Text = "Player 2";
             this.txtPlayer2Name.Visible = false;
             // 
+            // btnStart
+            // 
+            this.btnStart.Location = new System.Drawing.Point(272, 407);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(212, 23);
+            this.btnStart.TabIndex = 9;
+            this.btnStart.Text = "Start Game!";
+            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
+            // 
             // frm_StartMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
             this.ClientSize = new System.Drawing.Size(705, 533);
+            this.Controls.Add(this.btnStart);
             this.Controls.Add(this.txtPlayer2Name);
             this.Controls.Add(this.txtPlayer1Name);
             this.Controls.Add(this.txtSinglePlayerName);
@@ -150,5 +162,6 @@
         private System.Windows.Forms.TextBox txtSinglePlayerName;
         private System.Windows.Forms.TextBox txtPlayer1Name;
         private System.Windows.Forms.TextBox txtPlayer2Name;
+        private System.Windows.Forms.Button btnStart;
     }
 }
