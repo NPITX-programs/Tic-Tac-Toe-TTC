@@ -12,6 +12,10 @@ namespace TicTacToe
 {
     public partial class frm_gameUI : Form
     {
+
+        private string player1Name;
+        private string player2Name;
+        private string gameMode;
         static char[] arr = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };   //initializes array of characters representing Tic Tac Toe board, each index corresponds to a position on the board with '0' to '9' serving as placeholders for player moves
         static int player = 1;  //keeps track of current player starting with player 1 & toggling between player 1 and player 2 as game progresses
         static int choice;  //stores player's selected position on board & is updated based on user input during game
@@ -40,5 +44,25 @@ namespace TicTacToe
         {
 
         }
+
+
+        public frm_gameUI(string mode, string p1, string p2 = "")
+        {
+            InitializeComponent();
+            gameMode = mode;
+            player1Name = p1;
+            player2Name = p2;
+
+            if (gameMode == "SinglePlayer")
+            {
+                lblPlayer.Text = $"Player: {player1Name}";
+            }
+            else
+            {
+                lblPlayer.Text = $"Player 1: {player1Name}";
+            }
+        }
     }
+
 }
+
