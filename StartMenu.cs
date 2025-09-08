@@ -27,7 +27,8 @@ namespace TicTacToeProject
 
         private void btnAbout_Click(object sender, EventArgs e)
         {
-
+            frm_AboutUs aboutForm = new frm_AboutUs();
+            aboutForm.Show();
         }
 
         private void btnSinglePlayer_Click(object sender, EventArgs e)
