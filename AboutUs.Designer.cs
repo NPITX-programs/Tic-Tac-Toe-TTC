@@ -39,6 +39,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.btnClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -90,7 +91,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Sienna;
-            this.label5.Location = new System.Drawing.Point(50, 533);
+            this.label5.Location = new System.Drawing.Point(50, 509);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(52, 21);
             this.label5.TabIndex = 5;
@@ -143,12 +144,23 @@
             // 
             this.label10.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Sienna;
-            this.label10.Location = new System.Drawing.Point(50, 554);
+            this.label10.Location = new System.Drawing.Point(50, 530);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(710, 74);
             this.label10.TabIndex = 10;
             this.label10.Text = "My name is Ryan! I am in the coding track, I have a degree in Spanish from HCU fo" +
     "rmally HBU. ";
+            // 
+            // btnClose
+            // 
+            this.btnClose.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnClose.Location = new System.Drawing.Point(54, 608);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.TabIndex = 11;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // frm_AboutUs
             // 
@@ -156,6 +168,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(807, 655);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -187,5 +200,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button btnClose;
     }
 }
