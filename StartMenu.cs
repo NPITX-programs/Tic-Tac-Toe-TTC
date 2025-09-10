@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TicTacToe;
+using WindowsFormsApp1;
 
 namespace TicTacToeProject
 {
@@ -22,12 +24,14 @@ namespace TicTacToeProject
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
-
+            frmFont fontform = new frmFont();
+            fontform.Show();
         }
 
         private void btnAbout_Click(object sender, EventArgs e)
         {
-
+            frm_AboutUs aboutForm = new frm_AboutUs();
+            aboutForm.Show();
         }
 
         private void btnSinglePlayer_Click(object sender, EventArgs e)
@@ -66,7 +70,7 @@ namespace TicTacToeProject
                     return;
                 }
 
-                gameUI gameForm = new gameUI("SinglePlayer", name);
+                frm_gameUI gameForm = new frm_gameUI("SinglePlayer", name);
                 gameForm.Show();
                 this.Hide();
             }
@@ -81,7 +85,7 @@ namespace TicTacToeProject
                     return;
                 }
 
-                gameUI gameForm = new gameUI("Multiplayer", p1, p2);
+                frm_gameUI gameForm = new frm_gameUI("Multiplayer", p1, p2);
                 gameForm.Show();
                 this.Hide();
             }

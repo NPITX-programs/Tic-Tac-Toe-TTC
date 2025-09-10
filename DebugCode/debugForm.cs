@@ -8,23 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TicTacToeProject
+namespace TicTacToeProject.DebugCode
 {
-    public partial class frm_AboutUs : Form
+    public partial class frm_debug : Form
     {
-        public frm_AboutUs()
+        public frm_debug()
         {
             InitializeComponent();
         }
 
-        private void label9_Click(object sender, EventArgs e)
+        private void frm_debug_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

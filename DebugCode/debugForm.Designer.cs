@@ -1,6 +1,6 @@
-﻿namespace Tic_Tac_Toe_TTC
+﻿namespace TicTacToeProject.DebugCode
 {
-    partial class frm_main
+    partial class frm_debug
     {
         /// <summary>
         /// Required designer variable.
@@ -28,34 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_viewDebug = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // btn_viewDebug
+            // button1
             // 
-            this.btn_viewDebug.Location = new System.Drawing.Point(0, 0);
-            this.btn_viewDebug.Name = "btn_viewDebug";
-            this.btn_viewDebug.Size = new System.Drawing.Size(75, 23);
-            this.btn_viewDebug.TabIndex = 0;
-            this.btn_viewDebug.Text = "Debug Info";
-            this.btn_viewDebug.UseVisualStyleBackColor = true;
-            this.btn_viewDebug.Click += new System.EventHandler(this.btn_viewDebug_Click);
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // frm_main
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(167, 2);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 1;
+            // 
+            // frm_debug
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btn_viewDebug);
-            this.Name = "frm_main";
-            this.Text = "Form 1";
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button1);
+            this.Name = "frm_debug";
+            this.Text = "Debug Form";
+            this.Load += new System.EventHandler(this.frm_debug_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btn_viewDebug;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
-
