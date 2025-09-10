@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TicTacToe;
-using WindowsFormsApp1;
 
 namespace TicTacToeProject
 {
@@ -24,8 +23,7 @@ namespace TicTacToeProject
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
-            frmFont fontform = new frmFont();
-            fontform.Show();
+
         }
 
         private void btnAbout_Click(object sender, EventArgs e)
