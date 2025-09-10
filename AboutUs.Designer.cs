@@ -125,8 +125,8 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(710, 74);
             this.label8.TabIndex = 8;
-            this.label8.Text = "My name is Adam! I am in the coding track, I enjoy spending time with friends, pl" +
-    "aying video games, and watching Youtube.\r\n";
+            this.label8.Text = "My name is Adam! I am in the coding track. I enjoy spending time with friends, pl" +
+    "aying video games, and watching YouTube.\r\n";
             // 
             // label9
             // 
@@ -136,8 +136,8 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(710, 74);
             this.label9.TabIndex = 9;
-            this.label9.Text = "My name is Charlie! I have been at nonPareil for about 2 years, I enjoy therotica" +
-    "l physics, talking with friends, and I am in the IT and coding tracks.\r\n";
+            this.label9.Text = "My name is Charlie! I have been at nonPareil for about 2 years. I enjoy theoretic" +
+    "al physics and talking with friends, and I am in the IT and coding tracks.\r\n";
             this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label10
@@ -148,8 +148,8 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(710, 74);
             this.label10.TabIndex = 10;
-            this.label10.Text = "My name is Ryan! I am in the coding track, I have a degree in Spanish from HCU fo" +
-    "rmally HBU. ";
+            this.label10.Text = "My name is Ryan! I am in the coding track. I have a degree in Spanish from HCU, f" +
+    "ormerly HBU. ";
             // 
             // btnClose
             // 
