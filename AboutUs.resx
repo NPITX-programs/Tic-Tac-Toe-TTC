@@ -118,9 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label6.Text" xml:space="preserve">
-    <value>Hi My name is Husam I have a degree from the University of Houston in Political Science with a minor in History. I am in the coding and IT tracks, and have been attending nonPareil for 1 year. I enjoy traveling, spending time with friends, and trying out new things.</value>
+    <value>Hi! My name is Husam. I have a bachelors degree from the University of Houston in Political Science with a minor in history. I have been at nonPareil for 1 year and I am part of the IT and Coding tracks! I enjoy sports, learning new things, meeting new people and traveling the world.
+</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>My name is Angel Valderrama and I'm part of the App Dev TTC, and I coded and color the Color Dialog/Font for this Tic Tac Toe game, I'm still new by learning the ways of coding with the group that I am. I also enjoy coding so much and I'm glad that I became a coder myself.</value>
+    <value>My name is Angel Valderrama and I'm part of the App Dev TTC, and I coded and colored the Color Dialog/Font for this Tic Tac Toe game. I'm still new by learning the ways of coding with the group that I am with.  I also enjoy coding so much and I'm glad that I became a coder myself.</value>
   </data>
 </root>
