@@ -122,9 +122,6 @@
 </value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>My name is Angel Valderrama and I'm part of the App Dev TTC, and I coded and color the Color Dialog/Font for this Tic Tac Toe game, I'm still new by learning the ways of coding with the group that I am with.  I also enjoy coding so much and I'm glad that I became a coder myself.</value>
-  </data>
-  <data name="label10.Text" xml:space="preserve">
-    <value>Hi! My name is Ryan! I have a bachelors degree from Houston Baptist University now Houston Christian University in Spanish. I enjoy learning different languages, spending time with different people and expanding my horizons.</value>
+    <value>My name is Angel Valderrama and I'm part of the App Dev TTC, and I coded and colored the Color Dialog/Font for this Tic Tac Toe game. I'm still new by learning the ways of coding with the group that I am with.  I also enjoy coding so much and I'm glad that I became a coder myself.</value>
   </data>
 </root>

@@ -103,7 +103,7 @@
             this.label6.ForeColor = System.Drawing.Color.Sienna;
             this.label6.Location = new System.Drawing.Point(50, 79);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(710, 76);
+            this.label6.Size = new System.Drawing.Size(710, 94);
             this.label6.TabIndex = 6;
             this.label6.Text = resources.GetString("label6.Text");
             // 
