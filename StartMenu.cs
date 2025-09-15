@@ -23,7 +23,8 @@ namespace TicTacToeProject
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
-
+            Settings settings = new Settings();
+            settings.Show();
         }
 
         private void btnAbout_Click(object sender, EventArgs e)
