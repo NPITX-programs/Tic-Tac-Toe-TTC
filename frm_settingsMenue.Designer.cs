@@ -39,7 +39,7 @@
             this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(351, 450);
             this.Name = "frm_settingsMenue";
-            this.Text = "frm_settingsMenue";
+            this.Text = "Settings Meneu";
             this.ResumeLayout(false);
 
         }
