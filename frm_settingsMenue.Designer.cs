@@ -1,6 +1,6 @@
 ﻿namespace TicTacToeProject
 {
-    partial class Settings
+    partial class frm_settingsMenue
     {
         /// <summary>
         /// Required designer variable.
@@ -32,14 +32,14 @@
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.SuspendLayout();
             // 
-            // Settings
+            // frm_settingsMenue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(351, 450);
-            this.Name = "Settings";
-            this.Text = "Settings";
+            this.Name = "frm_settingsMenue";
+            this.Text = "frm_settingsMenue";
             this.ResumeLayout(false);
 
         }

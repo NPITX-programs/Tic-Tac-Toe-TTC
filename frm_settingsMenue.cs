@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TicTacToeProject
 {
-    public partial class Settings : Form
+    public partial class frm_settingsMenue : Form
     {
-        public Settings()
+        public frm_settingsMenue()
         {
             InitializeComponent();
         }
