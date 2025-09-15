@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.fontDialog1 = new System.Windows.Forms.FontDialog();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.SuspendLayout();
             // 
             // Settings
@@ -43,5 +45,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.FontDialog fontDialog1;
+        private System.Windows.Forms.ColorDialog colorDialog1;
     }
 }
