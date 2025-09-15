@@ -43,11 +43,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lblP2score = new System.Windows.Forms.Label();
+            this.lblP1score = new System.Windows.Forms.Label();
+            this.lblP2 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblP1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -221,25 +225,50 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.lblP2);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.lblP1);
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(15, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(309, 138);
+            this.panel1.Size = new System.Drawing.Size(309, 128);
             this.panel1.TabIndex = 3;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // label6
+            // lblP2score
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(206, 16);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(93, 19);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Player 2 Wins";
+            this.lblP2score.AutoSize = true;
+            this.lblP2score.BackColor = System.Drawing.Color.Transparent;
+            this.lblP2score.Font = new System.Drawing.Font("Times New Roman", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblP2score.Location = new System.Drawing.Point(202, 4);
+            this.lblP2score.Name = "lblP2score";
+            this.lblP2score.Size = new System.Drawing.Size(64, 73);
+            this.lblP2score.TabIndex = 2;
+            this.lblP2score.Text = "0";
+            this.lblP2score.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // lblP1score
+            // 
+            this.lblP1score.AutoSize = true;
+            this.lblP1score.BackColor = System.Drawing.Color.Transparent;
+            this.lblP1score.Font = new System.Drawing.Font("Times New Roman", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblP1score.Location = new System.Drawing.Point(46, 4);
+            this.lblP1score.Name = "lblP1score";
+            this.lblP1score.Size = new System.Drawing.Size(64, 73);
+            this.lblP1score.TabIndex = 1;
+            this.lblP1score.Text = "0";
+            this.lblP1score.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblP2
+            // 
+            this.lblP2.AutoSize = true;
+            this.lblP2.Location = new System.Drawing.Point(188, 16);
+            this.lblP2.Name = "lblP2";
+            this.lblP2.Size = new System.Drawing.Size(93, 19);
+            this.lblP2.TabIndex = 0;
+            this.lblP2.Text = "Player 2 Wins";
             // 
             // label8
             // 
@@ -259,15 +288,26 @@
             this.label7.TabIndex = 0;
             this.label7.Click += new System.EventHandler(this.label5_Click);
             // 
-            // label5
+            // lblP1
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(29, 16);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(93, 19);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Player 1 Wins";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.lblP1.AutoSize = true;
+            this.lblP1.Location = new System.Drawing.Point(32, 16);
+            this.lblP1.Name = "lblP1";
+            this.lblP1.Size = new System.Drawing.Size(93, 19);
+            this.lblP1.TabIndex = 0;
+            this.lblP1.Text = "Player 1 Wins";
+            this.lblP1.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.SkyBlue;
+            this.panel2.Controls.Add(this.lblP2score);
+            this.panel2.Controls.Add(this.lblP1score);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 38);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(309, 90);
+            this.panel2.TabIndex = 3;
             // 
             // frm_gameUI
             // 
@@ -296,6 +336,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -318,10 +360,13 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblP2;
+        private System.Windows.Forms.Label lblP1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblP2score;
+        private System.Windows.Forms.Label lblP1score;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 
