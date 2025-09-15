@@ -16,5 +16,15 @@ namespace TicTacToeProject
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            fontDialog1.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            colorDialog1.ShowDialog(this);
+        }
     }
 }
