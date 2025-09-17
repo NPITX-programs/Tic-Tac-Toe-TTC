@@ -46,6 +46,74 @@ namespace TicTacToe
         }
 
 
+        private void btn_Click(object sender, EventArgs e)
+        {
+            Button clickedButton = sender as Button;
+            int index = int.Parse(clickedButton.Tag.ToString());
+
+            if (arr[index] != 'X' && arr[index] != 'O')
+            {
+                arr[index] = player == 1 ? 'X' : 'O';
+                clickedButton.Text = arr[index].ToString();
+                flag = CheckWin();
+
+                if (flag == 1)
+                {
+                    MessageBox.Show($"Player {(player == 1 ? player1Name : player2Name)} wins!");
+                    ResetGame();
+                }
+                else if (flag == -1)
+                {
+                    MessageBox.Show("It's a draw!");
+                    ResetGame();
+                }
+                else
+                {
+                    player = (player % 2) + 1;
+                    lblPlayer.Text = $"Player {(player == 1 ? player1Name : player2Name)}";
+                }
+            }
+        }
+
+
+        private int CheckWin()
+        {
+            int[,] winPatterns = new int[,]
+            {
+        {0,1,2}, {3,4,5}, {6,7,8}, // rows
+        {0,3,6}, {1,4,7}, {2,5,8}, // columns
+        {0,4,8}, {2,4,6}           // diagonals
+            };
+
+            for (int i = 0; i < winPatterns.GetLength(0); i++)
+            {
+                int a = winPatterns[i, 0];
+                int b = winPatterns[i, 1];
+                int c = winPatterns[i, 2];
+
+                if (arr[a] == arr[b] && [c])
+                    return 1; // win
+            }
+
+            if (arr.All(x => x == 'X' || x == 'O'))
+                return -1; // draw
+            return 0; // game continues
+        }
+
+
+        private void ResetGame()
+        {
+            for (int i = 0; i < 9; i++)
+            {
+                arr[i] = char.Parse(i.ToString());
+                Controls.Find($"btn{i}", true)[0].Text = "";
+            }
+            player = 1;
+            lblPlayer.Text = $"Player 1: {player1Name}";
+            flag = 0;
+        }
+
+
         public frm_gameUI(string mode, string p1, string p2 = "")
         {
             InitializeComponent();
