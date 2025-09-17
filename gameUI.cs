@@ -63,6 +63,31 @@ namespace TicTacToe
             }
         }
     }
+    public class TicTacToe
+    {
+        private int player1Wins = 0;
+        private int player2Wins = 0;
+
+        public void PlayerWins(int playerNumber)
+        {
+            if (playerNumber == 1)
+            {
+                player1Wins++;
+                Console.WriteLine("Player 1 wins! Total Wins: " + player1Wins);
+            }
+            else if (playerNumber == 2)
+            {
+                player2Wins++;
+                Console.WriteLine("Player 2 wins! Total Wins: " + player2Wins);
+            }
+        }
+
+        public void DisplayWins()
+        {
+            Console.WriteLine($"Player 1 Wins: {player1Wins}, Player 2 Wins: {player2Wins}");
+        }
+    }
+
 
 }
 

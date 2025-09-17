@@ -76,7 +76,7 @@
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.Size = new System.Drawing.Size(212, 23);
             this.btnSettings.TabIndex = 4;
-            this.btnSettings.Text = "Settings";
+            this.btnSettings.Text = "Settings Menue";
             this.btnSettings.UseVisualStyleBackColor = true;
             this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
             // 
