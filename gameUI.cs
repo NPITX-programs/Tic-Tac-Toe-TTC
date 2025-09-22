@@ -22,7 +22,7 @@ namespace TicTacToe
         static int flag = 0;    //determines state of game & can indicate whether game is ongoing, a player has won, or if it has ended in draw
         public frm_gameUI()
         {
-            InitializeComponent();
+            InitializeComponent(); 
         }
 
         private void Form1_Load(object sender, EventArgs e) //when Tic Tac Toe board is loaded
