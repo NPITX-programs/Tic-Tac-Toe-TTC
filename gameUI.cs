@@ -92,7 +92,7 @@ namespace TicTacToe
                 int b = winPatterns[i, 1];
                 int c = winPatterns[i, 2];
 
-                if (arr[a] == arr[b] && [c])
+                if (arr[a] == arr[b] && arr[b] == arr[c])
                     return 1; // win
             }
 
