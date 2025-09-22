@@ -228,7 +228,7 @@
             this.panel1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(15, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(309, 138);
+            this.panel1.Size = new System.Drawing.Size(309, 128);
             this.panel1.TabIndex = 3;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -244,7 +244,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(206, 62);
+            this.label8.Location = new System.Drawing.Point(244, 62);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(0, 19);
             this.label8.TabIndex = 0;
@@ -253,7 +253,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(29, 62);
+            this.label7.Location = new System.Drawing.Point(65, 62);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(0, 19);
             this.label7.TabIndex = 0;
