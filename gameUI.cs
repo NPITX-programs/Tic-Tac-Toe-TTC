@@ -25,7 +25,7 @@ namespace TicTacToe
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e) //when Tic Tac Toe board is loaded
+        private void Form1_Load(object sender, EventArgs e) //when Tic Tac Toe board is loaded 
         {
             lblPlayer.Text = "Player 1";    //sets up label to indicate it is Player 1's turn at the start
         }
